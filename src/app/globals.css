@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Force justification for all paragraphs in the privacy policy content */
+.prose p {
+    text-align: justify !important;
+    hyphens: auto;
+}
+
+.prose li {
+    text-align: justify !important;
+}
